@@ -23,6 +23,7 @@ END_MESSAGES = {
     'BLUE_WINS': "Blue wins!",
     'DRAW': "It's a draw!"
 }
+IMAGE_PATH = "img/{}.png"
 
 
 def get_offsets(width, height, r, x, y):
@@ -57,7 +58,7 @@ class ImageLoader(object):
         hex_radius = self.hex_radius
         if animal in self.animal_imgs:
             return self.animal_imgs[animal]
-        im = Image.open("{}.png".format(animal))
+        im = Image.open(IMAGE_PATH.format(animal))
         im = im.resize((hex_radius * 2, hex_radius * 2), Image.ANTIALIAS)
         self.animal_imgs[animal] = ImageTk.PhotoImage(im)
         return self.animal_imgs[animal]
