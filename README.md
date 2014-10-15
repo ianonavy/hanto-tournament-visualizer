@@ -22,3 +22,7 @@ Visualizes output of the Hanto game runner for CS 4233.
 	java ... >> game_output
 	java ... >> game_output
     cat "game_output" | python hanto.py --continuous --fullscreen
+
+## Screenshot
+
+[screenshot](http://i.imgur.com/FmdXKKv.png)
