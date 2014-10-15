@@ -250,8 +250,8 @@ class ReadThread(threading.Thread):
 
 
 def main():
-    WIDTH = 1920
-    HEIGHT = 1080
+    WIDTH = 800
+    HEIGHT = 600
     HEX_RADIUS = 600
     DELAY = int(1000 / 60)  # 60 fps
     CLOSE_TIMER = 3000
