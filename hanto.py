@@ -23,7 +23,7 @@ END_MESSAGES = {
     'BLUE_WINS': "Blue wins!",
     'DRAW': "It's a draw!"
 }
-IMAGE_PATH = "img/{}.png"
+IMAGE_PATH = "img/{}.gif"
 
 
 def get_offsets(width, height, r, x, y):
