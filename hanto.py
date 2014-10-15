@@ -289,6 +289,7 @@ def main():
 
     root = tk.Tk()
     root.config(bg="white")
+    root.wm_title("Hanto Tournament")
     if args.fullscreen:
         width, height = root.winfo_screenwidth(), root.winfo_screenheight()
         root.overrideredirect(1)
