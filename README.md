@@ -25,4 +25,4 @@ Visualizes output of the Hanto game runner for CS 4233.
 
 ## Screenshot
 
-[screenshot](http://i.imgur.com/FmdXKKv.png)
+![screenshot](http://i.imgur.com/FmdXKKv.png)
