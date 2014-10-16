@@ -192,7 +192,7 @@ class App(object):
                     return
             else:
                 x1, y1, x2, y2, animal, color = item
-                if not x1 and not y1:
+                if x1 is None and y1 is None:
                     piece = Piece(self, x2, y2, animal, color)
                     self.pieces[x2, y2] = piece
                     piece.draw()
